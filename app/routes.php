@@ -19,3 +19,5 @@ Route::get('/', function()
 Route::get('welcome/sayhello', 'WelcomeController@sayhello ');
 
 Route::get('greeting/sayhi','GreetingController@sayhi');
+
+Route :: get('student/sayhi','StudentController@sayhi');
