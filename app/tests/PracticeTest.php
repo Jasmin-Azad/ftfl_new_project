@@ -54,8 +54,9 @@ class PracticeTest extends TestCase{
 
 
 
+public function testStampMustBeInstanceofDateTime()
 
-
+{
      $date = new DateFormatter(new DateTime);
 
         $this->assertInstanceOf('DateTime',$date->getstamp());
